@@ -1,0 +1,8 @@
+{
+  "version": "5.0",
+  "name": "deeplivecam",
+  "title": "Deep-Live-Cam",
+  "description": "Real-time face swap and one-click video deepfake with only a single image.",
+  "icon": "icon.png",
+  "platform": "*"
+}
