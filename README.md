@@ -68,13 +68,14 @@ Click **Reset** to remove the cloned `app` folder and all local install artifact
 
 ## System Requirements
 
-- **Python**: 3.11 recommended
+- **Python**: 3.11 recommended (Pinokio handles this)
 - **RAM**: 8GB minimum, 16GB recommended
 - **GPU**: Optional but highly recommended for real-time performance
   - **NVIDIA**: CUDA 12.x + cuDNN
   - **Apple Silicon**: M1/M2/M3 (CoreML)
   - **Windows**: Any DirectX 12 GPU (DirectML)
   - **Intel**: Integrated or discrete GPU (OpenVINO)
+- **Linux users** may need: `sudo apt install python3-dev build-essential`
 
 ## Notes
 
