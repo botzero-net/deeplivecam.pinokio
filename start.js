@@ -7,7 +7,7 @@ module.exports = {
         path: "app",
         venv: "env",
         message: [
-          "python run.py"
+          "python run.py --execution-provider cuda"
         ]
       }
     }

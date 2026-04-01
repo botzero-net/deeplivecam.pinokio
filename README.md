@@ -70,12 +70,11 @@ Click **Reset** to remove the cloned `app` folder and all local install artifact
 
 - **Python**: 3.11 recommended (Pinokio handles this)
 - **RAM**: 8GB minimum, 16GB recommended
-- **GPU**: Optional but highly recommended for real-time performance
-  - **NVIDIA**: CUDA 12.x + cuDNN
+- **GPU**:
+  - **NVIDIA**: RTX series recommended. **Drivers must be installed** (CUDA toolkit NOT required — launcher installs CUDA/cuDNN via pip)
   - **Apple Silicon**: M1/M2/M3 (CoreML)
-  - **Windows**: Any DirectX 12 GPU (DirectML)
-  - **Intel**: Integrated or discrete GPU (OpenVINO)
-- **Linux users** may need: `sudo apt install python3-dev build-essential`
+  - **Other**: Falls back to CPU (slow for live mode)
+- **Linux**: `sudo apt install python3-dev build-essential` (for compiling insightface)
 
 ## Notes
 
